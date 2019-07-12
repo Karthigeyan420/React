@@ -63,27 +63,6 @@ function RenderComments({ comments }) {
   );
 }
 
-// function RenderComments({comments}){
-//     console.log('comments ',comments);
-//     if (comments != null)
-//         return (
-//             <div>
-//                 <h4>Comments</h4>
-//                 <ul className="list-unstyled">
-//                     {comments.map((comment) => {
-//                         return (
-//                             <li key ={comment.id}>
-//                             <p>{comment.comment}</p>
-//                             <p>-- {comment.author}, {comment.date}</p>
-//                             </li>
-//                         );
-//                     })}
-//                 </ul>
-//             </div>
-//         );
-//         else
-//             return(<div></div>);
-// }
 
 const DishDetail = (props) => {
     console.log('props ',props);
